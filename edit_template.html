@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{.Subject}}</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f8fa;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background-color: white;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Hello {{.Name}},</h2>
+    <p>This is a Your previ Task {{.Prevtask}}<strong>Todo App</strong>.</p>
+    <p>This is a Sucessfully Change into {{.Newtask}} id {{.Id}}<strong>Todo App</strong>.</p>
+    <p>Please log in and complete your tasks to stay organized and productive. ✅</p>
+    <p>Keep up the great work!</p>
+
+    <div class="footer">
+      — The Todo App Team
+    </div>
+  </div>
+</body>
+</html>
